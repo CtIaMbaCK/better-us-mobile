@@ -1,4 +1,4 @@
-# 📱 BetterUS Mobile
+# BetterUS Mobile
 
 Ứng dụng di động của hệ thống **BetterUS** — nền tảng kết nối tình nguyện viên với người có hoàn cảnh khó khăn tại TP. Hồ Chí Minh.
 
@@ -24,11 +24,11 @@
 - Theo dõi lịch sử đóng góp và điểm thưởng
 - Nhận chứng chỉ tình nguyện
 
-### 💬 Nhắn tin & Thông báo
+### Nhắn tin & Thông báo
 - Chat trực tiếp với tình nguyện viên / người thụ hưởng qua Socket.IO
 - Thông báo thời gian thực
 
-### 🚨 Khẩn cấp
+### Khẩn cấp
 - Gửi yêu cầu khẩn cấp với mức độ ưu tiên cao
 
 ---
@@ -57,16 +57,7 @@
 
 ---
 
-## 📋 Yêu cầu hệ thống
-
-- **Flutter SDK**: `>= 3.10.4`
-- **Dart SDK**: `>= 3.10.4`
-- **Android**: minSdkVersion 21+ (Android 5.0+)
-- **iOS**: iOS 12+
-
----
-
-## 🚀 Hướng dẫn cài đặt & chạy
+## Hướng dẫn cài đặt & chạy
 
 ### 1. Clone repository và vào thư mục
 
@@ -91,8 +82,6 @@ API_URL=http://10.0.2.2:8080   # Android Emulator
 
 GOOGLE_MAPS_API_KEY=your_google_maps_api_key
 ```
-
-> ⚠️ **Lưu ý**: File `.env` phải được đặt trong thư mục gốc của `mobile/` vì được khai báo là asset trong `pubspec.yaml`.
 
 ### 3. Cài đặt dependencies
 
@@ -131,7 +120,7 @@ flutter build ios --release
 
 ---
 
-## 📁 Cấu trúc dự án
+## Cấu trúc dự án
 
 ```
 mobile/
