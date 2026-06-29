@@ -33,30 +33,6 @@
 
 ---
 
-## 🛠 Công nghệ sử dụng
-
-| Thư viện | Mục đích |
-|---|---|
-| `flutter` | Framework UI đa nền tảng |
-| `dio` | HTTP client nâng cao |
-| `socket_io_client` | Kết nối WebSocket (chat real-time) |
-| `google_maps_flutter` | Hiển thị bản đồ |
-| `flutter_map` + `latlong2` | Bản đồ (fallback) |
-| `flutter_secure_storage` | Lưu trữ token bảo mật |
-| `shared_preferences` | Lưu trữ dữ liệu nhẹ |
-| `image_picker` | Chọn ảnh từ thư viện / camera |
-| `flutter_image_compress` | Nén ảnh trước khi upload |
-| `google_fonts` | Font chữ (Roboto) |
-| `flutter_animate` | Hiệu ứng animation |
-| `shimmer` | Loading skeleton effect |
-| `intl` | Định dạng ngày giờ (vi_VN) |
-| `permission_handler` | Quản lý quyền hệ thống |
-| `url_launcher` | Mở link / gọi điện |
-| `gal` | Lưu ảnh vào thư viện |
-| `flutter_dotenv` | Đọc biến môi trường |
-
----
-
 ## Hướng dẫn cài đặt & chạy
 
 ### 1. Clone repository và vào thư mục
