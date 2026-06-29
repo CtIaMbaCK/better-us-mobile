@@ -29,7 +29,7 @@ class AppreciationService {
         }),
       );
 
-      print('📤 Gửi cảm ơn cho activity: $activityId, target: $targetId');
+      print('Gửi cảm ơn cho activity: $activityId, target: $targetId');
       print('Response: ${response.statusCode}');
       if (response.statusCode != 200 && response.statusCode != 201) {
         print('Response body: ${response.body}');
@@ -37,7 +37,7 @@ class AppreciationService {
 
       return response.statusCode == 200 || response.statusCode == 201;
     } catch (e) {
-      print('❌ Lỗi gửi appreciation: $e');
+      print('Lỗi gửi appreciation: $e');
       return false;
     }
   }
@@ -65,7 +65,7 @@ class AppreciationService {
       }
       return false;
     } catch (e) {
-      print('❌ Lỗi kiểm tra appreciation: $e');
+      print('Lỗi kiểm tra appreciation: $e');
       return false;
     }
   }

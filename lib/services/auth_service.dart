@@ -75,7 +75,7 @@ class AuthService {
           print("✅ Login thành công: ${loadedUser.profile?.fullName}");
           return true;
         } else {
-          // Parse error message từ backend
+          // lay loi tu backend
           try {
             final errorData = jsonDecode(response.body);
             final errorMessage = errorData['message'] ?? 'Đăng nhập thất bại';
@@ -132,8 +132,8 @@ class AuthService {
         Uri.parse('$baseUrl/users/me'),
         headers: {
           'Content-Type': 'application/json',
-          'Accept': 'application/json', // 👈 BẮT BUỘC phải có
-          'Authorization': 'Bearer $token', // 👈 Chắc chắn có chữ Bearer
+          'Accept': 'application/json',
+          'Authorization': 'Bearer $token', // xac thuc hs256
           'ngrok-skip-browser-warning': 'true',
         },
       );
@@ -145,7 +145,7 @@ class AuthService {
       }
       return null;
     } catch (e) {
-      print("Lỗi API getMe: $e"); // 👈 Xem ở console lỗi gì
+      print("Lỗi API getMe: $e"); //console 
       return null;
     }
   }
@@ -196,7 +196,7 @@ class AuthService {
       if (response.statusCode == 201 || response.statusCode == 200) {
         return jsonDecode(
           response.body,
-        ); // Trả về {accessToken: "...", user: {...}}
+        ); 
       }
       print("Lỗi Register: ${response.body}");
       return null;

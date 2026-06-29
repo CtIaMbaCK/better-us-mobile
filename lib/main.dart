@@ -7,7 +7,6 @@ import 'package:mobile/views/widget_tree.dart'; // Import file WidgetTree vừa 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await initializeDateFormatting('vi_VN', null);
-  // ... các logic init khác của bạn ...
 
   runApp(const MyApp());
 }
